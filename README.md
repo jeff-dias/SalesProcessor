@@ -30,10 +30,13 @@ Os dados de venda possuem o identificador 003 e seguem o seguinte formato:
 O sistema deverá ler continuamente todos os arquivos dentro do diretório padrão
 HOMEPATH\data\in e colocar o arquivo de saída em HOMEPATH\data\out.
 No arquivo de saída o sistema deverá possuir os seguintes dados:
-• Quantidade de clientes no arquivo de entrada
-• Quantidade de vendedores no arquivo de entrada
-• ID da venda mais cara
-• O pior vendedor
+- Quantidade de clientes no arquivo de entrada
+
+- Quantidade de vendedores no arquivo de entrada
+
+- ID da venda mais cara
+
+- O pior vendedor
 
 ## Instalação
 O sistema é um Windows Service que pode ser utilizado via Visual Studio, como prompt, ou como serviço. Para este segundo cenário deve ser executado, como administrador do sistema, o arquivo batch localizado no diretório HOMEPATH\Setup.
