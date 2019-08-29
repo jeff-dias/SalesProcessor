@@ -1,0 +1,21 @@
+29/08/2019 03:37:35 : #EXCEPTION_ERROR Referência de objeto não definida para uma instância de um objeto. =>    em SalesProcessor.Core.Handlers.DataHandler.ApplyStrategy(String identifier, String line) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 90
+   em SalesProcessor.Core.Handlers.DataHandler.ProcessFile(FileInfo[] files) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 46
+   em SalesProcessor.Core.Worker.ProcessorWorker.Execute() na C:\Projetos\SalesProcessor\SalesProcessor\Core\Worker\ProcessorWorker.cs:linha 30 
+29/08/2019 03:37:45 : #EXCEPTION_ERROR Referência de objeto não definida para uma instância de um objeto. =>    em SalesProcessor.Core.Handlers.DataHandler.ApplyStrategy(String identifier, String line) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 90
+   em SalesProcessor.Core.Handlers.DataHandler.ProcessFile(FileInfo[] files) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 46
+   em SalesProcessor.Core.Worker.ProcessorWorker.Execute() na C:\Projetos\SalesProcessor\SalesProcessor\Core\Worker\ProcessorWorker.cs:linha 30 
+29/08/2019 03:37:55 : #EXCEPTION_ERROR Referência de objeto não definida para uma instância de um objeto. =>    em SalesProcessor.Core.Handlers.DataHandler.ApplyStrategy(String identifier, String line) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 90
+   em SalesProcessor.Core.Handlers.DataHandler.ProcessFile(FileInfo[] files) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 46
+   em SalesProcessor.Core.Worker.ProcessorWorker.Execute() na C:\Projetos\SalesProcessor\SalesProcessor\Core\Worker\ProcessorWorker.cs:linha 30 
+29/08/2019 03:39:44 : #EXCEPTION_ERROR Não é possível converter um objeto do tipo 'SalesProcessor.Models.Customer' no tipo 'SalesProcessor.Models.Sale'. =>    em SalesProcessor.Core.Handlers.DataHandler.ApplyStrategy(String identifier, String line) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 104
+   em SalesProcessor.Core.Handlers.DataHandler.ProcessFile(FileInfo[] files) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 48
+   em SalesProcessor.Core.Worker.ProcessorWorker.Execute() na C:\Projetos\SalesProcessor\SalesProcessor\Core\Worker\ProcessorWorker.cs:linha 30 
+29/08/2019 03:39:54 : #EXCEPTION_ERROR Não é possível converter um objeto do tipo 'SalesProcessor.Models.Customer' no tipo 'SalesProcessor.Models.Sale'. =>    em SalesProcessor.Core.Handlers.DataHandler.ApplyStrategy(String identifier, String line) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 104
+   em SalesProcessor.Core.Handlers.DataHandler.ProcessFile(FileInfo[] files) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 48
+   em SalesProcessor.Core.Worker.ProcessorWorker.Execute() na C:\Projetos\SalesProcessor\SalesProcessor\Core\Worker\ProcessorWorker.cs:linha 30 
+29/08/2019 03:46:16 : #EXCEPTION_ERROR Coleção foi modificada; talvez a operação de enumeração não seja executada. =>    em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   em System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   em System.Collections.Generic.List`1.Enumerator.MoveNext()
+   em SalesProcessor.Core.Handlers.DataHandler.HandleOutput() na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 115
+   em SalesProcessor.Core.Handlers.DataHandler.ProcessFile(FileInfo[] files) na C:\Projetos\SalesProcessor\SalesProcessor\Core\Handlers\DataHandler.cs:linha 52
+   em SalesProcessor.Core.Worker.ProcessorWorker.Execute() na C:\Projetos\SalesProcessor\SalesProcessor\Core\Worker\ProcessorWorker.cs:linha 30 
